@@ -1,11 +1,10 @@
 import React from 'react';
 
-function App() {
-  return (
-    <div>
-      <h2>Hello World this is the minimalist React</h2>
-    </div>
-  );
-}
-
+class App extends React.Component{
+  render() {
+    return (
+      <h1>Heleoc</h1>
+    );
+  }  
+} 
 export default App;
